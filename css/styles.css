@@ -89,7 +89,8 @@ a {
 /* Head section */
 
 .container-head-1 {
-  width: 480px;
+  min-width: 480px;
+  
   height: 400px;
   flex-shrink: 0;
   display: flex;
@@ -105,13 +106,21 @@ a {
   background-size: cover;
   
 }
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .container-head-1 {
     background-image: linear-gradient(rgba(25, 28, 38, 0.4), rgba(25, 28, 38, 0.8)),url(../images/h-m_2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    ;
   }
 }
+
+
+
+
 .container-head-1 .title-big{
   width: 360px;
   color: #FFF;
@@ -1451,6 +1460,7 @@ cursor: pointer;
   (min-resolution: 2dppx) {
   .container-head-1 {
     background-image:linear-gradient(rgba(25, 28, 38, 0.4), rgba(25, 28, 38, 0.8)), url(../images/h-t_2x.png);
+    background-repeat: no-repeat;
   }
 }
 .container-head-1 .title-big{
