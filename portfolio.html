@@ -16,6 +16,88 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="container">
+
+    <div class="js-menu-container is-open">
+      <button class="menu-toggle js-close-menu">
+        <svg class="icon-menu" width="40px" height="40px">
+          <use
+            href="./images/icons.svg/symbol-defs.svg#icon-close-black-18dp"
+          ></use>
+        </svg>
+      </button>
+
+      <nav class="">
+        <ul class="drawer-nav">
+          <li>
+            <a href="index.html" class="drawer-nav-page">Studio</a>
+          </li>
+          <li>
+            <a href="portfolio.html" class="drawer-nav-page">Portfolio</a>
+          </li>
+          <li>
+            <a href="contacts.html" class="drawer-nav-page">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="drawer-contacts">
+        <li>
+          <a href="tel:+12127724150" class="drawer-phone">+1 212-772-4150</a>
+        </li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="drawer-email"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+
+      <ul class="drawer-social-links">
+        <li class="">
+          <a
+            href="https://www.instagram.com/"
+            class="drawer-social-link"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            aria-label="Instagram"
+            >Instagram
+          </a>
+        </li>
+       
+        <li class="">
+          <a
+            href="https://twitter.com/"
+            class="drawer-social-link"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            aria-label="Twitter"
+            >Twitter
+          </a>
+        </li>
+      
+        <li class="">
+          <a
+            href="https://www.facebook.com/"
+            class="drawer-social-link"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            aria-label="Facebook"
+            >Facebook
+          </a>
+        </li>
+       
+        <li class="">
+          <a
+            href="https://www.linkedin.com/"
+            class="drawer-social-link"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            aria-label="Linkedin"
+            >Linkedin
+          </a>
+        </li>
+      </ul>
+    </div>
+
     <!--Header-->
     <header>
       <!-- Top line section -->
@@ -79,7 +161,11 @@
         </ul>
       </div>
     </header>
-
+    <button class="menu-button js-open-menu">
+      <svg width="40px" height="40px">
+        <use href="./images/icons.svg/symbol-defs.svg#icon-menu"></use>
+      </svg>
+    </button>
     <main>
      
 
@@ -140,12 +226,30 @@
           
          <div class="project-section">
           <div class="animation">
-            <img
-              width="370"
-              height="294"
-              src="images/img (2)squooshoptimized.jpg"
-              alt="Poster of 2 basketball players"
-            />
+          
+
+<!-- Picture replacement -->
+<picture>
+
+  <!-- Desktop -->
+
+  <source media="(min-width:1158px)"
+    srcset="./images/port-p2-d.png,
+    ./images/port-p2-d-2x.png ">
+
+  <!-- Tablet -->
+
+  <source media="(min-width:768px)"
+    srcset="./images/port-p2-t.png,
+    ./images/port-p2-t-2x.png">
+
+  <!-- Mobile -->
+  <source srcset="./images/port-p2-m.png,
+  ./images/port-p2-m-2x.png">
+  <img src="./images/port-p2-m.png" alt="game" />
+</picture>
+
+
             <div class="overlay-photo-text"></div>
 
           </div>
@@ -156,12 +260,26 @@
         
           <div class="project-section">
             <div class="animation">
-            <img
-              width="370"
-              height="294"
-              src="images/img (3)squooshoptimized.jpg"
-              alt="Restaurant Logo"
-            />
+           <!-- Picture replacement -->
+<picture>
+
+  <!-- Desktop -->
+
+  <source media="(min-width:1158px)"
+    srcset="./images/port-p3-d.png,
+    ./images/port-p3-d-2x.png ">
+
+  <!-- Tablet -->
+
+  <source media="(min-width:768px)"
+    srcset="./images/port-p3-t.png,
+    ./images/port-p3-t-2x.png">
+
+  <!-- Mobile -->
+  <source srcset="./images/port-p3-m.png,
+  ./images/port-p3-m-2x.png">
+  <img src="./images/port-p3-m.png" alt="restaurant" />
+</picture>
             <div class="overlay-photo-text"></div>
 
           </div>
@@ -174,12 +292,26 @@
        
           <div class="project-section">
             <div class="animation">
-            <img
-              width="370"
-              height="294"
-              src="images/img (4)squooshoptimized.jpg"
-              alt="Black Headphones"
-            />
+              <!-- Picture replacement -->
+<picture>
+
+  <!-- Desktop -->
+
+  <source media="(min-width:1158px)"
+    srcset="./images/port-p4-d.png,
+    ./images/port-p4-d-2x.png ">
+
+  <!-- Tablet -->
+
+  <source media="(min-width:768px)"
+    srcset="./images/port-p4-t.png,
+    ./images/port-p4-t-2x.png">
+
+  <!-- Mobile -->
+  <source srcset="./images/port-p4-m.png,
+  ./images/port-p4-m-2x.png">
+  <img src="./images/port-p4-m.png" alt="head" />
+</picture>
             <div class="overlay-photo-text"></div>
 
           </div>
@@ -192,12 +324,26 @@
        
           <div class="project-section">
             <div class="animation">
-            <img
-              width="370"
-              height="294"
-              src="images/img (5)squooshoptimized.jpg"
-              alt="2 Boxes"
-            />
+               <!-- Picture replacement -->
+<picture>
+
+  <!-- Desktop -->
+
+  <source media="(min-width:1158px)"
+    srcset="./images/port-p5-d.png,
+    ./images/port-p5-d-2x.png ">
+
+  <!-- Tablet -->
+
+  <source media="(min-width:768px)"
+    srcset="./images/port-p5-t.png,
+    ./images/port-p5-t-2x.png">
+
+  <!-- Mobile -->
+  <source srcset="./images/port-p5-m.png,
+  ./images/port-p5-m-2x.png">
+  <img src="./images/port-p5-m.png" alt="boxes" />
+</picture>
             <div class="overlay-photo-text"></div>
 
           </div>
@@ -208,12 +354,26 @@
         
           <div class="project-section">
             <div class="animation">
-            <img
-              width="370"
-              height="294"
-              src="images/img (6)squooshoptimized.jpg"
-              alt="Website Homescreen"
-            />
+                    <!-- Picture replacement -->
+<picture>
+
+  <!-- Desktop -->
+
+  <source media="(min-width:1158px)"
+    srcset="./images/port-p6-d.png,
+    ./images/port-p6-d-2x.png ">
+
+  <!-- Tablet -->
+
+  <source media="(min-width:768px)"
+    srcset="./images/port-p6-t.png,
+    ./images/port-p6-t-2x.png">
+
+  <!-- Mobile -->
+  <source srcset="./images/port-p6-m.png,
+  ./images/port-p6-m-2x.png">
+  <img src="./images/port-p6-m.png" alt="laptop" />
+</picture>
             <div class="overlay-photo-text"></div>
 
           </div>
@@ -224,12 +384,26 @@
        
           <div class="project-section">
             <div class="animation">
-            <img
-              width="370"
-              height="294"
-              src="images/img (7)squooshoptimized.jpg"
-              alt="Open Book"
-            />
+                  <!-- Picture replacement -->
+<picture>
+
+  <!-- Desktop -->
+
+  <source media="(min-width:1158px)"
+    srcset="./images/port-p7-d.png,
+    ./images/port-p7-d-2x.png ">
+
+  <!-- Tablet -->
+
+  <source media="(min-width:768px)"
+    srcset="./images/port-p7-t.png,
+    ./images/port-p7-t-2x.png">
+
+  <!-- Mobile -->
+  <source srcset="./images/port-p7-m.png,
+  ./images/port-p7-m-2x.png">
+  <img src="./images/port-p7-m.png" alt="book" />
+</picture>
             <div class="overlay-photo-text"></div>
 
           </div>
@@ -240,12 +414,26 @@
        
           <div class="project-section">
             <div class="animation">
-            <img
-              width="370"
-              height="294"
-              src="images/img (8)squooshoptimized.jpg"
-              alt="white tag"
-            />
+                         <!-- Picture replacement -->
+<picture>
+
+  <!-- Desktop -->
+
+  <source media="(min-width:1158px)"
+    srcset="./images/port-p8-d.png,
+    ./images/port-p8-d-2x.png ">
+
+  <!-- Tablet -->
+
+  <source media="(min-width:768px)"
+    srcset="./images/port-p8-t.png,
+    ./images/port-p8-t-2x.png">
+
+  <!-- Mobile -->
+  <source srcset="./images/port-p8-m.png,
+  ./images/port-p8-m-2x.png">
+  <img src="./images/port-p8-m.png" alt="lab" />
+</picture>
             <div class="overlay-photo-text"></div>
 
           </div>
@@ -256,12 +444,26 @@
         
           <div class="project-section">
             <div class="animation">
-            <img
-              width="370"
-              height="294"
-              src="images/img(9)squooshoptimized.jpg"
-              alt="Typing on Laptop keyboard"
-            />
+              <!-- Picture replacement -->
+<picture>
+
+  <!-- Desktop -->
+
+  <source media="(min-width:1158px)"
+    srcset="./images/port-p9-d.png,
+    ./images/port-p9-d-2x.png ">
+
+  <!-- Tablet -->
+
+  <source media="(min-width:768px)"
+    srcset="./images/port-p9-t.png,
+    ./images/port-p9-t-2x.png">
+
+  <!-- Mobile -->
+  <source srcset="./images/port-p9-m.png,
+  ./images/port-p9-m-2x.png">
+  <img src="./images/port-p9-m.png" alt="bussines" />
+</picture>
             <div class="overlay-photo-text"></div>
 
           </div>
@@ -393,6 +595,6 @@
    
    
     </footer>
-
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
